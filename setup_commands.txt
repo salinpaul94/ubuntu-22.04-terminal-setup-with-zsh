@@ -5,3 +5,11 @@ select yes on prompt
 
 clone the below to home/.oh-my-zsh/custom/plugins
 git clone git@github.com:zsh-users/zsh-autosuggestions.git
+
+sudo nano ~/.zshrc
+
+edit line with plugins=(git) as
+plugins=(git zhs-autosuggestions)
+
+save and exit
+run command source ~/.zshrc
