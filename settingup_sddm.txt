@@ -3,3 +3,10 @@ sudo apt -y install sddm
 
 download sugar-light to downloads and run command
 sudo tar -xzvf ~/Downloads/sugar-light.tar -C /usr/share/sddm/themes
+
+create sddm.conf in /etc
+Add following lines
+[XDisplay]
+EnableHiDpi=true
+[Theme]    
+Current=sugar-light
