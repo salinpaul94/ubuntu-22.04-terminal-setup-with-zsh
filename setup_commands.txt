@@ -20,3 +20,10 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
 
 run command source ~/.zshrc
+
+install MesloGS NF Regurla font
+open terminal preferences
+go to unnamed and select custom font and select meslolgs nf
+
+sudo chsh -s $(which zsh)
+logout and login and open terminal and select the settings
