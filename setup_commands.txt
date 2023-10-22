@@ -9,7 +9,7 @@ git clone git@github.com:zsh-users/zsh-autosuggestions.git
 sudo nano ~/.zshrc
 
 edit line with plugins=(git) as
-plugins=(git zhs-autosuggestions)
+plugins=(git zsh-autosuggestions)
 
 save and exit
 run command source ~/.zshrc
