@@ -3,4 +3,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 select yes on prompt
 
+clone the below to home/.oh-my-zsh/custom/plugins
 git clone git@github.com:zsh-users/zsh-autosuggestions.git
