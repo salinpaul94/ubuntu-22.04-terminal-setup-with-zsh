@@ -10,3 +10,6 @@ Add following lines
 EnableHiDpi=true
 [Theme]    
 Current=sugar-light
+
+sudo apt -y install qml-module-qtquick-controls
+sudo apt install qml-module-qtquick-controls2
