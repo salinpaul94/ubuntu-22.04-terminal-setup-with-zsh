@@ -13,3 +13,10 @@ plugins=(git zhs-autosuggestions)
 
 save and exit
 run command source ~/.zshrc
+
+installing powerlevel10k theme
+
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+run command source ~/.zshrc
