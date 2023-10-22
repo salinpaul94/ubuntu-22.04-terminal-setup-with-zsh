@@ -1,2 +1,5 @@
 sudo apt update
 sudo apt -y install sddm
+
+download sugar-light to downloads and run command
+sudo tar -xzvf ~/Downloads/sugar-light.tar -C /usr/share/sddm/themes
